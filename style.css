@@ -1,0 +1,21 @@
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.thebank {
+  background: url(assets/thebank.png) center center no-repeat;
+  width: 1012px;
+  height: 84px;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-end;
+  align-items: center;
+}
