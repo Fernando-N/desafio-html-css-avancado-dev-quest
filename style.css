@@ -8,14 +8,47 @@ main {
   align-items: center;
 }
 
-.thebank {
-  background: url(assets/thebank.png) center center no-repeat;
+.box {
+  margin-bottom: 50px;
+  border: 1px solid blueviolet;
   width: 1012px;
   height: 84px;
+}
 
+.thebank {
+  background: url(assets/thebank.png) center center no-repeat;
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
 
   justify-content: flex-end;
   align-items: center;
+}
+
+.agencia-xyz {
+  background: url(assets/agenciaxyz.png) center center no-repeat;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 998px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+  .box {
+    margin-bottom: 50px;
+    border: 1px solid blueviolet;
+    max-width: 360px;
+    height: 84px;
+  }
+
+  .thebank {
+    background: url(assets/tehbank-mobile.png) center center no-repeat;
+  }
+
+  .agencia-xyz {
+    background: url(assets/agencia-mobile.png) center center no-repeat;
+    background-size: contain;
+  }
 }
