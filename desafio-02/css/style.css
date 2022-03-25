@@ -27,10 +27,6 @@ html {
   margin: 129px 0;
 }
 
-.list-images:first-child {
-  margin-left: 19px;
-}
-
 .box {
   display: flex;
   flex-shrink: 1;
